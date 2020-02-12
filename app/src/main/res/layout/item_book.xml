@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"
+        android:textSize="16dp"
+        android:text="dfdsfsdf"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btn_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:text="description"/>
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"
+        android:textSize="16dp"
+        android:text="dfdsfsdf"
+        android:layout_below="@+id/book_name"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"
+        android:textSize="16dp"
+        android:text="dfdsfsdf"
+        android:layout_below="@+id/author_name"
+        android:padding="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Book name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="book name"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_book_name"/>
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter author "
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/et_book_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Author"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_author"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter brief description "
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/et_author"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_description"/>
+
+    <TextView
+        android:id="@+id/tv_full_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter full description "
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/et_description"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_full_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Full Description"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_full_description"/>
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_below="@+id/et_full_description"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>

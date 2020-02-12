@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">College Library</string>
+    <string name="tab_text_1">Books</string>
+    <string name="tab_text_2">Students</string>
+</resources>

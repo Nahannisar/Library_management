@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Student name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="student name"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_student_name"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter address "
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/et_student_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_address"/>
+
+
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_below="@+id/et_address"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>
